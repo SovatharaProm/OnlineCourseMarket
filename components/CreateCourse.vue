@@ -41,6 +41,10 @@ export default {
       console.log('Delete course clicked');
     }
   }
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 04dcbd5 (update)
 };
 </script>
 

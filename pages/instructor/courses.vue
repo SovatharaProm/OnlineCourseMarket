@@ -3,7 +3,7 @@
     <div class="flex justify-between items-center mb-4">
       <p class="font-bold text-4xl">All Courses</p>
       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-        Create Coursess
+        Create Course
       </button>
     </div>
 
