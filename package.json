@@ -13,10 +13,13 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.10.1",
     "nuxt": "^3.8.2",
+    "nuxt-icon": "^0.6.8",
     "vue": "^3.3.10",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "nuxt-rating": "^0.0.15"
+    "nuxt-rating": "^0.0.15",
+    "vue-smooth-dnd": "^0.8.1",
+    "vuedraggable": "^4.1.0"
   }
 }
