@@ -1,15 +1,25 @@
 <template>
   <div class="drawer">
-    <div class="h-[10rem]">
-      <h1 class="font-bold text-center">Paragon Academy</h1>
-    </div>
-    <ul>
-      <li class="font-bold">Home</li>
-      <li class="font-bold">Course</li>
-      <li class="font-bold">Setting</li>
-    </ul>
     <div>
-      <p class="font-bold signOut-btn">Sign out</p>
+      <div>
+        <h1 class="font-bold text-center text-[#2B348F] text-2xl py-[2rem] px-[1rem]">
+          Paragon Academy
+        </h1>
+      </div>
+      <ul>
+        <li class="font-bold">
+          <Icon name="material-symbols:home-rounded" class="text-4xl" />Home
+        </li>
+        <li class="font-bold"><Icon name="material-symbols:book-4" class="text-4xl" />Course</li>
+        <li class="font-bold">
+          <Icon name="material-symbols:account-circle-outline" class="text-4xl" />Profile
+        </li>
+      </ul>
+    </div>
+    <div>
+      <p class="font-bold signOut-btn flex items-center">
+        <Icon name="mdi-light:logout" class="text-4xl" />Sign out
+      </p>
     </div>
   </div>
   <div class="content-wrapper">
@@ -28,6 +38,8 @@
   </div>
 </template>
 
+<script></script>
+
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta:wght@400;700&display=swap');
 
@@ -41,7 +53,7 @@
   text-align: center;
 }
 .drawer {
-  width: 20%;
+  width: 15%;
   height: 100%;
   background-color: #fff;
   position: fixed;
@@ -57,31 +69,32 @@
     flex-direction: column;
     justify-content: center;
     li {
-      padding: 0.5rem 7rem;
+      padding: 0.5rem 25%;
       font-weight: bold;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       color: #8a8a8a;
+      display: flex;
+      align-items: end;
     }
   }
 }
 
 .signOut-btn {
-  /* padding: 0.5rem 7rem; */
+  padding: 0.5rem 25%;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #2b348f;
   margin-bottom: 4rem;
-  padding: 4rem 7rem;
 }
 .content-wrapper {
   padding: 3rem 3rem 0rem 3rem;
-  width: 80%;
+  width: 85%;
   height: 100%;
   position: fixed;
   background: #f0f7ff;
   right: 0;
   top: 0;
-  overflow:scroll;
+  overflow: scroll;
 }
 .user-area {
   width: 100%;
@@ -99,5 +112,4 @@
   width: fit-content;
   border-radius: 14px;
 }
-
 </style>
