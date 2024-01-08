@@ -7,18 +7,13 @@
         </h1>
       </div>
       <ul>
-        
-        <router-link to="/" tag="li" class="font-bold text-4xl router-link" exact>
-      <Icon name="material-symbols:home-rounded" class="text-4xl icon" /> Home
-    </router-link>
-    <router-link to="/instructor/courses" tag="li" class="font-bold text-4xl router-link" exact>
-      <Icon name="material-symbols:book-4" class="text-4xl icon" /> Courses
-    </router-link>
-    <router-link to="/instructor/instructorprofile" tag="li" class="font-bold text-4xl router-link" exact>
-  <Icon name="material-symbols:account-circle-outline" class="text-4xl icon" /> Profile
-    </router-link>
-
-
+        <li class="font-bold">
+          <Icon name="material-symbols:home-rounded" class="text-4xl" />Home
+        </li>
+        <li class="font-bold"><Icon name="material-symbols:book-4" class="text-4xl" />Course</li>
+        <li class="font-bold">
+          <Icon name="material-symbols:account-circle-outline" class="text-4xl" />Profile
+        </li>
       </ul>
     </div>
     <div>
@@ -79,7 +74,7 @@
       font-size: 1.3rem;
       color: #8a8a8a;
       display: flex;
-      align-items: flex-end;
+      align-items: end;
     }
   }
 }

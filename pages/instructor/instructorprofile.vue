@@ -49,6 +49,7 @@
   
   <script>
 import Dashboard from '~/layouts/dashboard.vue';
+<<<<<<< HEAD
 definePageMeta({
   layout: 'dashboard',
 });
@@ -57,6 +58,12 @@ export default {
     components: {
         Dashboard
         
+=======
+
+export default {
+    components: {
+        Dashboard
+>>>>>>> origin/main
     },
     data() {
     return {

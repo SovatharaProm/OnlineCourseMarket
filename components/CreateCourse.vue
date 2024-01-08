@@ -3,6 +3,7 @@
     <div class="highlight"></div>
     <div>
       <p>{{ courseTitle }}</p>
+<<<<<<< HEAD
       <p style="color: #8A8A8A;">Lesson: 17h</p> <!-- Additional text for lesson hours -->
     </div>
     
@@ -15,6 +16,17 @@
       <button @click="deleteCourse" class="delete-button">
         Delete
       </button>
+=======
+      <p style="color: #8a8a8a">Lesson: 17h</p>
+      <!-- Additional text for lesson hours -->
+    </div>
+
+    <NuxtRating :read-only="true" :ratingValue="4" />
+
+    <div class="action-buttons">
+      <button @click="editCourse" class="edit-button">Edit</button>
+      <button @click="deleteCourse" class="delete-button">Delete</button>
+>>>>>>> origin/main
     </div>
   </div>
 </template>
@@ -24,12 +36,21 @@ export default {
   props: {
     courseTitle: {
       type: String,
+<<<<<<< HEAD
       default: 'Cloud Computing' // Default title
     },
     spacing: {
       type: String,
       default: '1rem' // Default spacing
     }
+=======
+      default: 'Cloud Computing', // Default title
+    },
+    spacing: {
+      type: String,
+      default: '1rem', // Default spacing
+    },
+>>>>>>> origin/main
   },
   methods: {
     editCourse() {
@@ -39,9 +60,14 @@ export default {
     deleteCourse() {
       // Implement delete functionality here
       console.log('Delete course clicked');
+<<<<<<< HEAD
     }
   }
   
+=======
+    },
+  },
+>>>>>>> origin/main
 };
 </script>
 
